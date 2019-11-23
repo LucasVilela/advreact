@@ -11,7 +11,7 @@ const SIGNOUT_MUTATION = gql`
   }
 `;
 
-export default function SignOut() {
+export default function Signout() {
   return (
     <Mutation
       mutation={SIGNOUT_MUTATION}
